@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "slug": "yapay-zeka-ve-hukuk",
+    "title": {
+      "tr": "Yapay Zeka ve Hukuk",
+      "en": "AI and Law"
+    },
+    "summary": {
+      "tr": "Yapay zekanın hukuk üzerindeki etkileri...",
+      "en": "Impacts of AI on legal systems..."
+    },
+    "content": {
+      "tr": "Burada uzun detaylı içerik olacak.",
+      "en": "Detailed content goes here."
+    }
+  },
+  {
+    "id": "2",
+    "slug": "is-hukuku-guncellemeleri",
+    "title": {
+      "tr": "İş Hukuku Güncellemeleri",
+      "en": "Labor Law Updates"
+    },
+    "summary": {
+      "tr": "Yeni düzenlemeler ve yasal gelişmeler...",
+      "en": "New regulations and legal developments..."
+    },
+    "content": {
+      "tr": "İş hukuku detay içerikleri burada.",
+      "en": "Labor law details here."
+    }
+  }
+]

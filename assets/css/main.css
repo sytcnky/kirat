@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Temel font ayarları */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+}
+
+
+/* Georgia Italic kullanımı için özel sınıf */
+.font-serif-italic {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+/* Büyük vurgu yazılar için stil */
+.font-display {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+/* Bootstrap uyumlu font weight sınıfları */
+.fw-regular { font-weight: 400; }
+.fw-medium  { font-weight: 500; }
+.fw-semibold { font-weight: 600; }
+.fw-bold    { font-weight: 700; }
+
+/* Kurumsal Renk Tanımları (Light + Dark Tema Destekli) */
+:root,
+[data-bs-theme="light"] {
+    --bs-primary: #324740;
+    --bs-primary-rgb: 50, 71, 64;
+
+    --bs-secondary: #cfb480;
+    --bs-secondary-rgb: 207, 180, 128;
+
+    --bs-body-bg: #ffffff;
+    --bs-body-color: #212529;
+
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: #2b3f39;
+
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: var(--bs-primary);
+
+    --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), 0.85);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-border-color: rgba(var(--bs-primary-rgb), 0.85);
+
+    --brand-bg: #f9f9f9;
+    --brand-text: #212529;
+    --brand-accent: var(--bs-secondary);
+}
+
+
+[data-bs-theme="dark"] {
+    --bs-primary: #cfb480;
+    --bs-primary-rgb: 207, 180, 128;
+
+    --bs-secondary: #324740;
+    --bs-secondary-rgb: 50, 71, 64;
+
+    --bs-body-bg: #1c1c1c;
+    --bs-body-color: #eaeaea;
+
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: #e5d2a0;
+
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-color: #000;
+    --bs-btn-border-color: var(--bs-primary);
+
+    --bs-btn-hover-bg: rgba(var(--bs-primary-rgb), 0.85);
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-border-color: rgba(var(--bs-primary-rgb), 0.85);
+
+    --brand-bg: #2a2a2a;
+    --brand-text: #ffffff;
+    --brand-accent: var(--bs-primary);
+}
+
+.offcanvas{
+    background-color: var(--bs-secondary) !important;
+}
+
+.nav-link.active {
+    color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgba(var(--bs-primary-rgb), 0.85) !important;
+    border-color: rgba(var(--bs-primary-rgb), 0.85) !important;
+    color: #fff !important;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgba(var(--bs-primary-rgb), 0.9);
+    color: #fff;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    background-color: transparent !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+
+#hero {
+    min-height: calc(100vh - 70px); /* header yüksekliğini düş */
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

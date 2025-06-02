@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sirket-sozlesmeleri",
+    "date": "2025-05-15",
+    "image": "/assets/img/blog-sirket-sozlesmeleri.png",
+    "title": {
+      "tr": "Şirket Sözleşmelerinde Dikkat Edilmesi Gerekenler",
+      "en": "Key Points in Company Contracts"
+    },
+    "excerpt": {
+      "tr": "Şirket sözleşmeleri hazırlanırken dikkat edilmesi gereken hukuki unsurlar hakkında kısa bir değerlendirme.",
+      "en": "A brief evaluation of the legal elements to consider when drafting company contracts."
+    },
+    "content": {
+      "tr": "Şirket sözleşmeleri, ortaklar arasındaki ilişkilerin temelini oluşturur.\n\nOrtaklık payları, yönetim yetkileri, kar dağıtım esasları gibi birçok husus sözleşme ile düzenlenir.\n\nBu nedenle her maddenin açık ve uygulanabilir olması büyük önem taşır.",
+      "en": "Company contracts form the foundation of relationships between partners.\n\nPartnership shares, management powers, profit distribution rules are regulated through contracts.\n\nTherefore, it is essential that each clause is clear and enforceable."
+    }
+  },
+
+  {
+    "id": "is-hukukunda-ozel-durumlar",
+    "date": "2025-05-10",
+    "image": "/assets/img/blog-is-hukuku.png",
+    "title": {
+      "tr": "İş Hukukunda Sık Karşılaşılan Özel Durumlar",
+      "en": "Common Special Cases in Labor Law"
+    },
+    "excerpt": {
+      "tr": "İşçi ve işveren arasındaki ilişkilerde sıkça karşılaşılan özel durumlar ve hukuki çözümler.",
+      "en": "Common special situations in employer-employee relations and their legal solutions."
+    },
+    "content": {
+      "tr": "İhbar süreleri, fazla mesai, mobbing ve tazminat hesaplamaları iş hukukunda sık karşılaşılan konulardır.\n\nBu alanlarda doğru hukuki danışmanlık, hem işçi hem de işveren açısından önemlidir.\n\nUygulamadaki yargı kararları da bu süreçlerde belirleyici olmaktadır.",
+      "en": "Notice periods, overtime, mobbing and compensation calculations are common issues in labor law.\n\nProper legal advice is crucial for both employees and employers.\n\nCourt precedents play a significant role in these processes."
+    }
+  }
+]

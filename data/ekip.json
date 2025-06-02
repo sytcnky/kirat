@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ahmet-yilmaz",
+    "name": { "tr": "Ahmet Yılmaz", "en": "Ahmet Yılmaz" },
+    "title": { "tr": "Kurucu Ortak - Avukat", "en": "Founding Partner - Attorney" },
+    "short": {
+      "tr": "Ceza ve ticaret hukuku alanlarında uzman.",
+      "en": "Specialized in criminal and commercial law."
+    },
+    "detail": {
+      "tr": "<p>Ahmet Yılmaz, ceza hukuku ve ticaret hukuku alanlarında 15 yıllık deneyime sahiptir.</p><p>Ulusal ve uluslararası müvekkillere danışmanlık sağlamaktadır. Akademik çalışmaları ve yayımlanmış makaleleri bulunmaktadır.</p>",
+      "en": "<p>Ahmet Yılmaz has 15 years of experience in criminal and commercial law.</p><p>He provides consultancy to domestic and international clients and has academic publications.</p>"
+    },
+    "image": "/assets/img/ekip/ahmet-yilmaz.jpg"
+  },
+  {
+    "id": "ayse-kara",
+    "name": { "tr": "Ayşe Kara", "en": "Ayşe Kara" },
+    "title": { "tr": "Kıdemli Avukat", "en": "Senior Attorney" },
+    "short": {
+      "tr": "İş ve aile hukuku uzmanı.",
+      "en": "Expert in labor and family law."
+    },
+    "detail": {
+      "tr": "<p>Ayşe Kara, iş hukuku ve aile hukuku alanlarında kapsamlı deneyime sahiptir.</p><p>Çok sayıda önemli dava ve arabuluculuk sürecini yönetmiştir.</p>",
+      "en": "<p>Ayşe Kara has extensive experience in labor and family law.</p><p>She has managed numerous important litigation and mediation processes.</p>"
+    },
+    "image": "/assets/img/ekip/ayse-kara.jpg"
+  }
+]

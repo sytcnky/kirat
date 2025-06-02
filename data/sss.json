@@ -1,0 +1,24 @@
+[
+  {
+    "id": "soru-1",
+    "question": {
+      "tr": "Hukuki danışmanlık almak için nasıl başvuru yapabilirim?",
+      "en": "How can I apply for legal consultancy?"
+    },
+    "answer": {
+      "tr": "Web sitemiz üzerinden iletişim formunu doldurarak veya telefon ile ofisimize ulaşarak başvuru yapabilirsiniz.",
+      "en": "You can apply by filling out the contact form on our website or by reaching our office by phone."
+    }
+  },
+  {
+    "id": "soru-2",
+    "question": {
+      "tr": "Danışmanlık ücretleri nasıl belirleniyor?",
+      "en": "How are consultancy fees determined?"
+    },
+    "answer": {
+      "tr": "Danışmanlık ücretleri, hizmetin kapsamı ve niteliğine göre müvekkil ile yapılan görüşmeler sonucunda belirlenmektedir.",
+      "en": "Consultancy fees are determined according to the scope and nature of the service, following discussions with the client."
+    }
+  }
+]

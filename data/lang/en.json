@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "Kirat Law"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Practice Areas",
+    "team": "Team",
+    "blog": "Blog",
+    "career": "Career",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "faaliyet": {
+    "title": "Our Practice Areas",
+    "subtitle": "Kirat Law offers a wide range of services with its specialized team in different legal fields.",
+    "button": "Service Details"
+  },
+  "ekip": {
+    "title": "Our Team",
+    "subtitle": "Our team of expert, dynamic and solution-oriented attorneys.",
+    "button": "Details"
+  },
+  "career": {
+    "title": "Career",
+    "subtitle": "Explore career opportunities at Kirat Law.",
+    "content": "<p>We are looking for new team members to join our expert and dynamic staff. You can share your updated CV with us for applications.</p><p>We offer growth opportunities and comprehensive mentorship across various legal fields.</p>",
+    "form_title": "Application Form",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Your Message",
+    "cv": "Upload CV",
+    "submit": "Submit"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us.",
+    "content": "<p>You can contact us for any questions, opinions or cooperation offers.</p><p>Address: Example District, Law Street No: 5, Istanbul</p><p>Phone: +90 212 123 45 67</p><p>Email: info@kirathukuk.com</p>",
+    "form_title": "Contact Us",
+    "name": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "submit": "Submit"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We have compiled some common questions for you."
+  },
+  "footer": {
+    "copyright": "© 2025 Kirat Law. All rights reserved."
+  }
+}

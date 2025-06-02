@@ -1,0 +1,133 @@
+[
+  {
+    "id": "ceza-hukuku",
+    "title": {"tr": "Ceza Hukuku", "en": "Criminal Law"},
+    "short": {
+      "tr": "Bireysel ve kurumsal ceza davalarında etkin savunma ile yanınızdayız.",
+      "en": "Effective defense in individual and corporate criminal cases."
+    },
+    "detail": {
+      "tr": "Ceza yargılaması sürecinde müvekkillerimizi adil yargılanma ilkesi çerçevesinde etkin şekilde temsil ediyoruz.\n\nSoruşturma evresinden kovuşturma sürecine, istinaf ve temyiz aşamalarına kadar her adımda hukuki destek sağlıyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Soruşturma ve kovuşturma süreci takibi</li><li>Gözaltı, tutuklama ve itiraz başvuruları</li><li>Ağır ceza ve asliye ceza davaları</li><li>Mağdur ve şikayetçi temsil hizmeti</li><li>Ceza hukuku danışmanlığı</li></ul>",
+      "en": "We represent our clients effectively throughout criminal proceedings within the framework of the right to a fair trial.\n\nFrom the investigation phase to prosecution, appeal, and cassation stages, we provide comprehensive legal support.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Investigation and prosecution monitoring</li><li>Detention, arrest, and objection applications</li><li>Serious and minor criminal court cases</li><li>Victim and complainant representation</li><li>Criminal law consultancy</li></ul>"
+    },
+    "image": "/assets/img/ceza-hukuku.png"
+  },
+  {
+    "id": "aile-hukuku",
+    "title": {"tr": "Aile Hukuku", "en": "Family Law"},
+    "short": {
+      "tr": "Aile içi uyuşmazlıklarda çözüm odaklı ve hassas yaklaşımlar sunuyoruz.",
+      "en": "Solution-oriented and sensitive approaches in family disputes."
+    },
+    "detail": {
+      "tr": "Aile ilişkilerinden doğan hukuki uyuşmazlıklarda, duyarlılık ve gizlilik esasına dayalı bir yaklaşım benimsiyoruz.\n\nBoşanma, velayet, nafaka ve mal rejimi gibi konularda müvekkillerimizin haklarını gözeten kapsamlı çözümler sunuyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Anlaşmalı ve çekişmeli boşanma davaları</li><li>Vesayet ve velayet davaları</li><li>Nafaka ve mal paylaşımı uyuşmazlıkları</li><li>Aile içi şiddet ve koruma tedbirleri</li><li>Tanıma ve tenfiz davaları</li></ul>",
+      "en": "In family law disputes, we adopt an approach based on sensitivity and confidentiality.\n\nWe offer comprehensive solutions protecting our clients’ rights in divorce, custody, alimony, and property division matters.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Contested and uncontested divorce cases</li><li>Guardianship and custody cases</li><li>Alimony and property division disputes</li><li>Domestic violence and protective measures</li><li>Recognition and enforcement cases</li></ul>"
+    },
+    "image": "/assets/img/aile-hukuku.png"
+  },
+  {
+    "id": "ticaret-ve-sirketler-hukuku",
+    "title": {"tr": "Ticaret ve Şirketler Hukuku", "en": "Commercial and Corporate Law"},
+    "short": {
+      "tr": "Ticari faaliyetlerinizi hukuki güvenceye almak için yanınızdayız.",
+      "en": "We are here to legally secure your commercial activities."
+    },
+    "detail": {
+      "tr": "Şirket kuruluşundan sözleşme yönetimine, ticari uyuşmazlıklardan birleşme & devralmalara kadar geniş bir yelpazede hukuki danışmanlık sunuyoruz.\n\nYerel ve uluslararası ticari işlemlerde; ticaret sicil işlemleri, pay devirleri, genel kurul süreçleri ve kurumsal yönetim konularında şirketlerin ihtiyaç duyduğu tüm hukuki hizmetleri sağlıyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Şirket kuruluş ve tasfiye işlemleri</li><li>Hisse devri ve ortaklık yapısı düzenlemeleri</li><li>Ticari sözleşme hazırlama ve müzakere</li><li>Genel kurul süreçlerinin takibi</li><li>Rekabet ve ticari itibar davaları</li></ul>",
+      "en": "We provide legal consultancy in a wide range of areas from company establishment to contract management, from commercial disputes to mergers & acquisitions.\n\nIn local and international transactions; we offer full legal services that companies need such as trade registry operations, share transfers, general assembly processes and corporate governance.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Company establishment and liquidation procedures</li><li>Share transfer and partnership structure arrangements</li><li>Commercial contract drafting and negotiation</li><li>General assembly process monitoring</li><li>Competition and commercial reputation lawsuits</li></ul>"
+    },
+    "image": "/assets/img/ticaret-ve-sirketler-hukuku.png"
+  },
+  {
+    "id": "is-ve-sosyal-guvenlik-hukuku",
+    "title": {"tr": "İş ve Sosyal Güvenlik Hukuku", "en": "Labor and Social Security Law"},
+    "short": {
+      "tr": "İşçi ve işveren haklarını gözeterek kapsamlı danışmanlık sunuyoruz.",
+      "en": "Comprehensive consultancy by protecting employee and employer rights."
+    },
+    "detail": {
+      "tr": "İşveren ve çalışan ilişkilerinden doğan her türlü uyuşmazlıkta hukuki danışmanlık ve dava takibi hizmeti sunuyoruz.\n\nİş sözleşmelerinin hazırlanması, feshi, iş kazaları, işe iade ve tazminat konularında müvekkillerimizi temsil ediyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>İşe iade davaları</li><li>Kıdem, ihbar ve diğer işçilik alacakları</li><li>İş kazaları ve meslek hastalıkları</li><li>SGK uyuşmazlıkları ve idari itirazlar</li><li>Toplu iş sözleşmeleri ve sendikal faaliyetler</li></ul>",
+      "en": "We provide legal consultancy and litigation services for all kinds of disputes arising from employer-employee relations.\n\nWe represent our clients in the preparation and termination of employment contracts, work accidents, reinstatement, and compensation matters.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Reinstatement lawsuits</li><li>Severance, notice and other labor receivables</li><li>Work accidents and occupational diseases</li><li>Social security disputes and administrative appeals</li><li>Collective bargaining and union activities</li></ul>"
+    },
+    "image": "/assets/img/is-ve-sosyal-guvenlik-hukuku.png"
+  },
+  {
+    "id": "icra-ve-iflas-hukuku",
+    "title": {"tr": "İcra ve İflas Hukuku", "en": "Enforcement and Bankruptcy Law"},
+    "short": {
+      "tr": "Alacak tahsilatı ve borç yönetiminde etkin hukuki yollar sunuyoruz.",
+      "en": "Effective legal solutions in debt collection and debt management."
+    },
+    "detail": {
+      "tr": "Alacakların tahsili, borçların yapılandırılması ve iflas süreçlerinin yönetimi gibi alanlarda müvekkillerimize etkili çözümler sunuyoruz.\n\nİcra takipleri, haciz işlemleri, iflas davaları ve konkordato süreçlerinde hızlı ve etkin bir şekilde hareket ederek müvekkillerimizin menfaatlerini koruyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>İlamlı ve ilamsız icra takipleri</li><li>Haciz işlemleri ve itirazların kaldırılması</li><li>İhtiyati haciz ve ihtiyati tedbir kararları</li><li>İflas ve iflasın ertelenmesi davaları</li><li>Konkordato başvuruları ve takibi</li></ul>",
+      "en": "We offer effective solutions in debt collection, debt restructuring and bankruptcy proceedings.\n\nWe protect our clients’ interests by acting swiftly and effectively in enforcement proceedings, seizures, bankruptcy cases and concordat processes.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Enforcement with and without judgment</li><li>Seizure procedures and removal of objections</li><li>Preliminary injunction and precautionary attachment decisions</li><li>Bankruptcy and postponement of bankruptcy cases</li><li>Concordat applications and follow-up</li></ul>"
+    },
+    "image": "/assets/img/template-icra-ve-iflas-hukuku.png"
+  },
+  {
+    "id": "miras-hukuku",
+    "title": {"tr": "Miras Hukuku", "en": "Inheritance Law"},
+    "short": {
+      "tr": "Miras paylaşımı ve uyuşmazlıklarında hakkınızı güvence altına alıyoruz.",
+      "en": "We secure your rights in inheritance sharing and disputes."
+    },
+    "detail": {
+      "tr": "Mirasın paylaşımı, vasiyetname düzenleme ve tenkis davaları gibi miras ilişkilerinden doğan uyuşmazlıklarda müvekkillerimize hem danışmanlık hem de dava takibi hizmeti sunuyoruz.\n\nAile içi miras çatışmalarının çözümünde etkili ve duyarlı yaklaşım sergiliyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Vasiyetname hazırlanması ve geçerliliği</li><li>Tereke tespiti ve paylaşımı</li><li>Tenkis ve iptal davaları</li><li>Mirasçılık belgesi alınması</li><li>Reddi miras işlemleri</li></ul>",
+      "en": "We offer both consultancy and litigation services in disputes arising from inheritance sharing, will preparation, and reduction lawsuits.\n\nWe adopt an effective and sensitive approach in resolving family inheritance conflicts.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Will preparation and validity</li><li>Estate determination and sharing</li><li>Reduction and cancellation cases</li><li>Certificate of inheritance issuance</li><li>Renunciation of inheritance</li></ul>"
+    },
+    "image": "/assets/img/miras-hukuku.png"
+  },
+  {
+    "id": "gayrimenkul-ve-insaat-hukuku",
+    "title": {"tr": "Gayrimenkul ve İnşaat Hukuku", "en": "Real Estate and Construction Law"},
+    "short": {
+      "tr": "Taşınmaz işlemleri ve inşaat projelerinde hukuki destek sağlıyoruz.",
+      "en": "We provide legal support in real estate transactions and construction projects."
+    },
+    "detail": {
+      "tr": "Taşınmaz alım-satımı, kira sözleşmeleri, tapu işlemleri ve inşaat projelerinden doğan uyuşmazlıklarda hukuki destek sunuyoruz.\n\nİmar planları, yapı ruhsatları, kat mülkiyeti, ortak alan kullanımı gibi alanlarda uzmanlığımızla hizmet veriyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Kira, tahliye ve uyarlama davaları</li><li>Tapu iptal ve tescil davaları</li><li>Müteahhitlik ve eser sözleşmeleri</li><li>Kat mülkiyeti ve yöneticilik ihtilafları</li><li>Kamulaştırma ve imar planı itirazları</li></ul>",
+      "en": "We offer legal support in real estate purchases, leases, title deeds, and disputes arising from construction projects.\n\nWe serve with our expertise in zoning plans, building permits, condominium ownership, and common area usage disputes.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Lease, eviction and adaptation cases</li><li>Title deed cancellation and registration cases</li><li>Construction contracts</li><li>Condominium and management disputes</li><li>Expropriation and zoning objections</li></ul>"
+    },
+    "image": "/assets/img/gayrimenkul-ve-insaat-hukuku.png"
+  },
+  {
+    "id": "fikri-ve-sinai-haklar-hukuku",
+    "title": {"tr": "Fikri ve Sınai Haklar Hukuku", "en": "Intellectual and Industrial Property Law"},
+    "short": {
+      "tr": "Marka, patent ve telif haklarınızı korumak için yanınızdayız.",
+      "en": "We are here to protect your trademark, patent and copyright rights."
+    },
+    "detail": {
+      "tr": "Marka, patent, tasarım ve telif haklarına ilişkin her türlü koruma, tescil ve dava süreçlerinde müvekkillerimizin haklarını savunuyoruz.\n\nHaksız rekabet, marka ihlalleri ve lisans sözleşmeleri gibi alanlarda hem önleyici danışmanlık hem de etkin dava takibi gerçekleştiriyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Marka ve patent tescili</li><li>Telif hakkı ihlali davaları</li><li>Lisans ve devir sözleşmeleri</li><li>Fikri hakların ihlali nedeniyle tazminat talepleri</li><li>Sınai haklara ilişkin itiraz süreçleri</li></ul>",
+      "en": "We defend our clients' rights in all protection, registration and litigation processes related to trademarks, patents, designs and copyrights.\n\nWe provide preventive consultancy and litigation tracking in areas such as unfair competition, trademark infringements and license agreements.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Trademark and patent registration</li><li>Copyright infringement cases</li><li>License and transfer agreements</li><li>Compensation claims for IP violations</li><li>Industrial property objection procedures</li></ul>"
+    },
+    "image": "/assets/img/fikri-ve-sinai-haklar-hukuku.png"
+  },
+  {
+    "id": "tuketici-hukuku",
+    "title": {"tr": "Tüketici Hukuku", "en": "Consumer Law"},
+    "short": {
+      "tr": "Tüketici haklarınızı korumak için çözüm odaklı danışmanlık sunuyoruz.",
+      "en": "We offer solution-oriented consultancy to protect your consumer rights."
+    },
+    "detail": {
+      "tr": "Tüketici ve satıcı/sağlayıcı arasındaki hukuki ilişkilerde tarafların hak ve yükümlülüklerini korumaya yönelik danışmanlık ve dava takibi sunuyoruz.\n\nAyıplı mal ve hizmet, cayma hakkı, mesafeli satış ve garanti gibi konularda etkin temsil sağlıyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>Ayıplı mal ve hizmet davaları</li><li>Tüketici hakem heyeti başvuruları</li><li>Mesafeli satış sözleşmelerine ilişkin ihtilaflar</li><li>İptal/iade süreçleri ve sözleşme fesihleri</li><li>Garanti ve teknik servis uyuşmazlıkları</li></ul>",
+      "en": "We offer consultancy and litigation services to protect the rights and obligations between consumers and providers.\n\nWe provide effective representation in defective goods/services, right of withdrawal, distance sales, and warranty disputes.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Defective goods and services cases</li><li>Consumer arbitration board applications</li><li>Distance sales contract disputes</li><li>Cancellation/refund processes and contract terminations</li><li>Warranty and technical service disputes</li></ul>"
+    },
+    "image": "/assets/img/tuketici-hukuku.png"
+  },
+  {
+    "id": "idare-ve-vergi-hukuku",
+    "title": {"tr": "İdare ve Vergi Hukuku", "en": "Administrative and Tax Law"},
+    "short": {
+      "tr": "İdari işlemler ve vergi uyuşmazlıklarında güçlü temsil sağlıyoruz.",
+      "en": "We provide strong representation in administrative actions and tax disputes."
+    },
+    "detail": {
+      "tr": "Kamu kurumlarıyla bireyler veya şirketler arasında doğan idari işlemlerden kaynaklı uyuşmazlıklarda hukuki çözüm üretiyoruz.\n\nİptal davaları, idari para cezaları, ruhsat ve lisans işlemleri gibi konularda müvekkillerimizi temsil ediyoruz.\n\n<h5 class=\"mt-4\">Hizmet Verdiğimiz Başlıca Alanlar</h5>\n<ul><li>İdari işlem ve para cezası iptali davaları</li><li>Ruhsat, izin ve faaliyet belgesi uyuşmazlıkları</li><li>Vergi tarhiyatı ve ceza itirazları</li><li>İdari başvuru ve itiraz süreçlerinin takibi</li><li>Vergi mahkemelerinde temsil</li></ul>",
+      "en": "We produce legal solutions for disputes arising from administrative actions between public institutions and individuals or companies.\n\nWe represent our clients in annulment lawsuits, administrative fines, licensing and permit procedures.\n\n<h5 class=\"mt-4\">Main Practice Areas</h5>\n<ul><li>Annulment of administrative actions and fines</li><li>License, permit, and activity certificate disputes</li><li>Tax assessments and penalty objections</li><li>Administrative applications and appeals</li><li>Representation before tax courts</li></ul>"
+    },
+    "image": "/assets/img/idare-ve-vergi-hukuku.png"
+  }
+
+]

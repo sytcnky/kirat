@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "Kırat Hukuk"
+  },
+  "menu": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Faaliyet Alanları",
+    "team": "Ekip",
+    "blog": "Blog",
+    "career": "Kariyer",
+    "contact": "İletişim",
+    "faq": "Sık Sorulan Sorular"
+  },
+  "faaliyet": {
+    "title": "Faaliyet Alanlarımız",
+    "subtitle": "Kırat Hukuk, farklı alanlarda uzmanlaşmış kadrosuyla geniş yelpazede hizmet sunar.",
+    "button": "Hizmet Detayları"
+  },
+  "ekip": {
+    "title": "Ekibimiz",
+    "subtitle": "Alanında uzman, dinamik ve çözüm odaklı avukat kadromuz.",
+    "button": "Detay"
+  },
+  "career": {
+    "title": "Kariyer",
+    "subtitle": "Kırat Hukuk’ta kariyer fırsatlarını keşfedin.",
+    "content": "<p>Alanında uzman ve dinamik ekibimize yeni çalışma arkadaşları arıyoruz. Başvuru için güncel özgeçmişinizi bizimle paylaşabilirsiniz.</p><p>Farklı hukuk disiplinlerinde gelişim fırsatları ve kapsamlı mentorluk imkanı sunuyoruz.</p>",
+    "form_title": "Başvuru Formu",
+    "name": "Ad Soyad",
+    "email": "E-Posta",
+    "phone": "Telefon",
+    "message": "Mesajınız",
+    "cv": "CV Yükle",
+    "submit": "Gönder"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle iletişime geçin.",
+    "content": "<p>Her türlü soru, görüş ve iş birliği teklifiniz için bize ulaşabilirsiniz.</p><p>Adres: Örnek Mah. Hukuk Sok. No: 5, İstanbul</p><p>Telefon: +90 212 123 45 67</p><p>E-posta: info@kirathukuk.com</p>",
+    "form_title": "Bize Ulaşın",
+    "name": "Ad Soyad",
+    "email": "E-Posta",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "submit": "Gönder"
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "subtitle": "Merak ettiğiniz bazı soruları sizin için derledik."
+  },
+  "footer": {
+    "copyright": "© 2025 Kırat Hukuk. Tüm hakları saklıdır."
+  }
+}
