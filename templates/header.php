@@ -24,23 +24,25 @@ $currentUrl = '/' . trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($pageTitle) ?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
 
-<div class="bg-white border-bottom shadow-sm fixed-top">
-    <div class="container d-flex align-items-center justify-content-between py-2">
+<div class="border-bottom shadow-sm fixed-top">
+    <div class="container d-flex align-items-center justify-content-between py-2" style="max-height: 60px">
         <button class="btn p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
             <i class="bi bi-list" style="font-size: 1.8rem;"></i>
         </button>
-        <a href="/?lang=<?= $lang ?>" class="text-decoration-none fw-bold text-dark fs-5">KIRAT HUKUK</a>
+        <a href="/?lang=<?= $lang ?>" class="brand-logo text-decoration-none fw-bold text-dark fs-5">
+            <img src="/assets/img/amblem.png" alt="Kırat Hukuk">
+        </a>
         <div class="d-flex align-items-center gap-3">
-            <button id="themeToggle" class="btn btn-sm btn-outline-secondary" title="Tema değiştir">
+            <button id="themeToggle" class="btn btn-sm btn-primary" title="Renk Modu">
                 <i class="bi bi-sun"></i>
             </button>
-            <a href="?lang=<?= $lang === 'tr' ? 'en' : 'tr' ?>" class="text-decoration-none fw-medium lang-toggle">
+            <a href="?lang=<?= $lang === 'tr' ? 'en' : 'tr' ?>" class="text-decoration-none fw-medium lang-toggle k-yellow">
                 <?= strtoupper($lang === 'tr' ? 'EN' : 'TR') ?>
             </a>
         </div>
@@ -49,7 +51,7 @@ $currentUrl = '/' . trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="mobileMenuLabel">Menü</h5>
+        <img src="/assets/img/amblem.png" alt="Kırat Hukuk" width="60">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
     </div>
     <div class="offcanvas-body">
@@ -67,4 +69,4 @@ $currentUrl = '/' . trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
     </div>
 </div>
 
-<main class="pt-5">
+<main>

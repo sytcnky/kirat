@@ -2,23 +2,111 @@
   {
     "id": "soru-1",
     "question": {
-      "tr": "Hukuki danışmanlık almak için nasıl başvuru yapabilirim?",
-      "en": "How can I apply for legal consultancy?"
+      "tr": "Hangi hukuk alanlarında hizmet veriyorsunuz?",
+      "en": "Which areas of law do you provide services in?"
     },
     "answer": {
-      "tr": "Web sitemiz üzerinden iletişim formunu doldurarak veya telefon ile ofisimize ulaşarak başvuru yapabilirsiniz.",
-      "en": "You can apply by filling out the contact form on our website or by reaching our office by phone."
+      "tr": "Ofisimiz ticaret hukuku, iş ve sosyal güvenlik hukuku, aile hukuku, ceza hukuku, idare ve vergi hukuku, gayrimenkul hukuku ve uluslararası hukuk alanlarında hizmet vermektedir.",
+      "en": "Our firm provides services in commercial law, labor and social security law, family law, criminal law, administrative and tax law, real estate law, and international law."
     }
   },
   {
     "id": "soru-2",
     "question": {
-      "tr": "Danışmanlık ücretleri nasıl belirleniyor?",
-      "en": "How are consultancy fees determined?"
+      "tr": "Dava sürecine nasıl başlanır?",
+      "en": "How is the litigation process initiated?"
     },
     "answer": {
-      "tr": "Danışmanlık ücretleri, hizmetin kapsamı ve niteliğine göre müvekkil ile yapılan görüşmeler sonucunda belirlenmektedir.",
-      "en": "Consultancy fees are determined according to the scope and nature of the service, following discussions with the client."
+      "tr": "Dava süreci, öncelikle müvekkil ile yapılan değerlendirme ve gerekli belgelerin hazırlanması sonrasında açılan dava dilekçesi ile başlar.",
+      "en": "The litigation process begins with an evaluation with the client and the preparation of necessary documents, followed by the filing of a petition."
+    }
+  },
+  {
+    "id": "soru-3",
+    "question": {
+      "tr": "İlk görüşme ücretli midir?",
+      "en": "Is the initial consultation charged?"
+    },
+    "answer": {
+      "tr": "İlk görüşmelerin ücreti, görüşmenin süresi ve içeriğine göre belirlenmektedir. Ön bilgi için ofisimizle iletişime geçebilirsiniz.",
+      "en": "The fee for the initial consultation depends on its duration and content. Please contact our office for more information."
+    }
+  },
+  {
+    "id": "soru-4",
+    "question": {
+      "tr": "Vekaletname nasıl düzenlenir?",
+      "en": "How is the power of attorney arranged?"
+    },
+    "answer": {
+      "tr": "Vekaletname, noterliklerde düzenlenir. Ofisimiz gerekli yönlendirme ve örnek metin konusunda yardımcı olmaktadır.",
+      "en": "The power of attorney is arranged at notary offices. Our firm provides guidance and sample texts as needed."
+    }
+  },
+  {
+    "id": "soru-5",
+    "question": {
+      "tr": "Dava süresi ne kadar sürer?",
+      "en": "How long does a lawsuit take?"
+    },
+    "answer": {
+      "tr": "Dava süresi, dosyanın niteliğine, tarafların tutumuna ve mahkemenin iş yüküne bağlı olarak değişiklik göstermektedir.",
+      "en": "The duration of a lawsuit depends on the nature of the case, the approach of the parties, and the workload of the court."
+    }
+  },
+  {
+    "id": "soru-6",
+    "question": {
+      "tr": "Avukat tutmak zorunlu mudur?",
+      "en": "Is it mandatory to hire a lawyer?"
+    },
+    "answer": {
+      "tr": "Bazı davalarda avukat zorunludur. Ancak karmaşık hukuki süreçlerde profesyonel avukat desteği her zaman tavsiye edilir.",
+      "en": "In some cases, a lawyer is mandatory. However, professional legal assistance is always recommended for complex legal processes."
+    }
+  },
+  {
+    "id": "soru-7",
+    "question": {
+      "tr": "Yurtdışında yaşayanlar için hizmet veriyor musunuz?",
+      "en": "Do you provide services for clients living abroad?"
+    },
+    "answer": {
+      "tr": "Evet, yurtdışında yaşayan müvekkillerimize online ve vekil üzerinden gerekli tüm hukuki hizmetleri sunuyoruz.",
+      "en": "Yes, we provide full legal services to clients residing abroad through online consultations and local representation."
+    }
+  },
+  {
+    "id": "soru-8",
+    "question": {
+      "tr": "Boşanma davaları ne kadar sürer?",
+      "en": "How long do divorce proceedings take?"
+    },
+    "answer": {
+      "tr": "Anlaşmalı boşanmalarda süreç birkaç hafta içinde tamamlanabilirken, çekişmeli davalar birkaç yıl sürebilir.",
+      "en": "Uncontested divorces may be finalized within weeks, while contested cases can take several years."
+    }
+  },
+  {
+    "id": "soru-9",
+    "question": {
+      "tr": "İcra takibi nasıl başlatılır?",
+      "en": "How is enforcement proceedings initiated?"
+    },
+    "answer": {
+      "tr": "İcra takibi, alacaklının talebi üzerine icra dairesine başvurarak başlatılır. Ofisimiz tüm süreç boyunca müvekkile eşlik etmektedir.",
+      "en": "Enforcement proceedings are initiated by applying to the enforcement office upon the creditor's request. Our firm assists the client throughout the entire process."
+    }
+  },
+  {
+    "id": "soru-10",
+    "question": {
+      "tr": "Hukuki süreçlerde gizlilik nasıl sağlanır?",
+      "en": "How is confidentiality ensured in legal proceedings?"
+    },
+    "answer": {
+      "tr": "Avukat-müvekkil ilişkisi kapsamında tüm bilgiler gizli tutulur ve üçüncü şahıslarla paylaşılmaz.",
+      "en": "All information is kept confidential under the attorney-client relationship and is not shared with third parties."
     }
   }
 ]

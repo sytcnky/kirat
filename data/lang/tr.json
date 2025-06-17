@@ -22,6 +22,10 @@
     "subtitle": "Alanında uzman, dinamik ve çözüm odaklı avukat kadromuz.",
     "button": "Detay"
   },
+  "hakkimizda": {
+    "title": "Hakkımızda",
+    "subtitle": "Alanında uzman, dinamik ve çözüm odaklı avukat kadromuz."
+  },
   "career": {
     "title": "Kariyer",
     "subtitle": "Kırat Hukuk’ta kariyer fırsatlarını keşfedin.",
@@ -37,8 +41,9 @@
   "contact": {
     "title": "İletişim",
     "subtitle": "Bizimle iletişime geçin.",
-    "content": "<p>Her türlü soru, görüş ve iş birliği teklifiniz için bize ulaşabilirsiniz.</p><p>Adres: Örnek Mah. Hukuk Sok. No: 5, İstanbul</p><p>Telefon: +90 212 123 45 67</p><p>E-posta: info@kirathukuk.com</p>",
+    "content": "<p>Adres: Ulucami, Atatürk Blv. No:37/4, 48000 Köyceğiz/Muğla</p><p>Telefon: +90 542 574 54 79</p><p>E-posta: info@kirathukuk.com</p>",
     "form_title": "Bize Ulaşın",
+    "form_subtitle": "<p>Her türlü soru, görüş ve iş birliği teklifiniz için bize ulaşabilirsiniz.</p>",
     "name": "Ad Soyad",
     "email": "E-Posta",
     "subject": "Konu",

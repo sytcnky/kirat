@@ -1,30 +1,29 @@
 [
   {
-    "id": "ahmet-yilmaz",
-    "name": { "tr": "Ahmet Yılmaz", "en": "Ahmet Yılmaz" },
-    "title": { "tr": "Kurucu Ortak - Avukat", "en": "Founding Partner - Attorney" },
-    "short": {
-      "tr": "Ceza ve ticaret hukuku alanlarında uzman.",
-      "en": "Specialized in criminal and commercial law."
+    "id": "aylin-kaya",
+    "name": "Aylin Kaya",
+    "title": "Kurucu Ortak",
+    "email": "aylin.kaya@example.com",
+    "image": "/assets/img/av.jpg",
+    "bio": {
+      "tr": "Aylin Kaya, İstanbul Üniversitesi Hukuk Fakültesi mezunudur. Ticaret Hukuku ve Sözleşmeler Hukuku alanlarında uzmandır.",
+      "en": "Aylin Kaya graduated from Istanbul University Faculty of Law. She specializes in Commercial Law and Contracts Law."
     },
-    "detail": {
-      "tr": "<p>Ahmet Yılmaz, ceza hukuku ve ticaret hukuku alanlarında 15 yıllık deneyime sahiptir.</p><p>Ulusal ve uluslararası müvekkillere danışmanlık sağlamaktadır. Akademik çalışmaları ve yayımlanmış makaleleri bulunmaktadır.</p>",
-      "en": "<p>Ahmet Yılmaz has 15 years of experience in criminal and commercial law.</p><p>He provides consultancy to domestic and international clients and has academic publications.</p>"
+    "education": {
+      "tr": "İstanbul Üniversitesi, Hukuk Lisans, 2005\nGalatasaray Üniversitesi, Özel Hukuk Yüksek Lisans, 2008",
+      "en": "Istanbul University, LLB, 2005\nGalatasaray University, LLM in Private Law, 2008"
     },
-    "image": "/assets/img/ekip/ahmet-yilmaz.jpg"
-  },
-  {
-    "id": "ayse-kara",
-    "name": { "tr": "Ayşe Kara", "en": "Ayşe Kara" },
-    "title": { "tr": "Kıdemli Avukat", "en": "Senior Attorney" },
-    "short": {
-      "tr": "İş ve aile hukuku uzmanı.",
-      "en": "Expert in labor and family law."
+    "practice": {
+      "tr": "Ticaret Hukuku, Sözleşmeler Hukuku, Şirketler Hukuku",
+      "en": "Commercial Law, Contracts Law, Corporate Law"
     },
-    "detail": {
-      "tr": "<p>Ayşe Kara, iş hukuku ve aile hukuku alanlarında kapsamlı deneyime sahiptir.</p><p>Çok sayıda önemli dava ve arabuluculuk sürecini yönetmiştir.</p>",
-      "en": "<p>Ayşe Kara has extensive experience in labor and family law.</p><p>She has managed numerous important litigation and mediation processes.</p>"
+    "languages": {
+      "tr": "İngilizce, Fransızca",
+      "en": "English, French"
     },
-    "image": "/assets/img/ekip/ayse-kara.jpg"
+    "memberships": {
+      "tr": "İstanbul Barosu, Türk Ticaret Hukuku Derneği",
+      "en": "Istanbul Bar Association, Turkish Commercial Law Association"
+    }
   }
 ]

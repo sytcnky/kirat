@@ -1,6 +1,6 @@
 </main>
 
-<footer class="bg-light text-center p-3 border-top small text-muted">
+<footer class="text-center p-3 border-top small text-muted">
     <?= htmlspecialchars($langData['footer']['copyright']) ?>
 </footer>
 

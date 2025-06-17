@@ -1,3 +1,19 @@
+<section class="hero">
+    <div class="hero-content">
+        <div class="container">
+            <div class="row">
+                <div class="col ">
+                    <img src="/assets/img/amblem.png" alt="Kırat Hukuk"></div>
+                <div class="col align-content-center">
+                    <h3 class="text-white">Adaletin terazisi şaşmaz</h3>
+                    <h1 class="text-white display-4">Bizimle güvende hissedin</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-overlay"></div>
+</section>
+
 <section class="container py-5 text-center">
     <h1 class="mb-4"><?= htmlspecialchars($langData['site']['title']) ?></h1>
     <p class="lead"><?= $lang === 'tr' ? 'Kurumsal hukuki çözümler, güvenilir temsil.' : 'Corporate legal solutions, reliable representation.' ?></p>

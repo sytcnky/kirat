@@ -22,6 +22,10 @@
     "subtitle": "Our team of expert, dynamic and solution-oriented attorneys.",
     "button": "Details"
   },
+  "hakkimizda": {
+    "title": "About Us",
+    "subtitle": "Alanında uzman, dinamik ve çözüm odaklı avukat kadromuz."
+  },
   "career": {
     "title": "Career",
     "subtitle": "Explore career opportunities at Kirat Law.",
@@ -37,8 +41,9 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Get in touch with us.",
-    "content": "<p>You can contact us for any questions, opinions or cooperation offers.</p><p>Address: Example District, Law Street No: 5, Istanbul</p><p>Phone: +90 212 123 45 67</p><p>Email: info@kirathukuk.com</p>",
+    "content": "<p>Address: Example District, Law Street No: 5, Istanbul</p><p>Phone: +90 212 123 45 67</p><p>Email: info@kirathukuk.com</p>",
     "form_title": "Contact Us",
+    "form_subtitle": "<p>You can contact us for any questions, opinions or cooperation offers.</p>",
     "name": "Full Name",
     "email": "Email",
     "subject": "Subject",

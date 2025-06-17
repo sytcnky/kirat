@@ -8,17 +8,17 @@ $langData = json_decode(file_get_contents(__DIR__ . '/../../data/lang/' . $lang 
 $faaliyetler = json_decode(file_get_contents(__DIR__ . '/../../data/faaliyetler.json'), true);
 ?>
 
-<section class="py-5 text-center bg-secondary">
+<section class="page-title" style="background-image: url('/assets/img/template-icra-ve-iflas-hukuku.png')">
     <div class="container">
-        <h1 class="fw-bold mb-3"><?= htmlspecialchars($langData['faaliyet']['title'] ?? 'Faaliyet Alanlarımız') ?></h1>
-        <p class="lead font-serif-italic text-primary"><?= htmlspecialchars($langData['faaliyet']['subtitle'] ?? '') ?></p>
+        <h1 class="text-white fw-bold mb-0"><?= htmlspecialchars($langData['faaliyet']['title'] ?? 'Faaliyet Alanlarımız') ?></h1>
+        <p class="lead font-serif-italic k-yellow"><?= htmlspecialchars($langData['faaliyet']['subtitle'] ?? '') ?></p>
     </div>
 </section>
 
 <div class="container py-5">
     <div class="row g-4">
         <?php foreach ($faaliyetler as $item): ?>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-3">
                 <div class="card h-100 shadow-sm">
                     <img src="<?= htmlspecialchars($item['image']) ?>"
                          class="card-img-top cursor-pointer"

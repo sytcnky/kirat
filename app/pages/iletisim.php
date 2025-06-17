@@ -1,20 +1,25 @@
 <?php
 $lang = $_GET['lang'] ?? 'tr';
-if (!in_array($lang, ['tr', 'en'])) { $lang = 'tr'; }
+if (!in_array($lang, ['tr', 'en'])) {
+    $lang = 'tr';
+}
 
 $langData = json_decode(file_get_contents(__DIR__ . '/../../data/lang/' . $lang . '.json'), true);
 ?>
 
-<section class="py-5 text-center bg-secondary">
+<section class="page-title" style="background-image: url('/assets/img/tuketici-hukuku.png')">
     <div class="container">
-        <h1 class="fw-bold mb-3"><?= htmlspecialchars($langData['contact']['title'] ?? 'İletişim') ?></h1>
-        <p class="lead font-serif-italic text-primary"><?= htmlspecialchars($langData['contact']['subtitle'] ?? '') ?></p>
+        <h1 class="text-white fw-bold mb-0"><?= htmlspecialchars($langData['contact']['title'] ?? 'İletişim') ?></h1>
+        <p class="lead font-serif-italic k-yellow"><?= htmlspecialchars($langData['contact']['subtitle'] ?? '') ?></p>
     </div>
 </section>
 
 <div class="container py-5">
     <div class="row g-5">
         <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047.3739250951803!2d28.688341299999994!3d36.9600194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c07f003b37459b%3A0x3852148b705e5a3f!2zS8SxcmF0IEh1a3VrIELDvHJvc3U!5e1!3m2!1str!2str!4v1750149304781!5m2!1str!2str"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             <?= $langData['contact']['content'] ?>
         </div>
 
@@ -38,7 +43,8 @@ $langData = json_decode(file_get_contents(__DIR__ . '/../../data/lang/' . $lang 
                     <label class="form-label"><?= htmlspecialchars($langData['contact']['message'] ?? 'Mesajınız') ?></label>
                     <textarea name="message" class="form-control" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary"><?= htmlspecialchars($langData['contact']['submit'] ?? 'Gönder') ?></button>
+                <button type="submit"
+                        class="btn btn-primary"><?= htmlspecialchars($langData['contact']['submit'] ?? 'Gönder') ?></button>
             </form>
         </div>
     </div>
