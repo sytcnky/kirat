@@ -18,3 +18,65 @@ function applyTheme(theme) {
         icon.className = theme === "dark" ? "bi bi-moon" : "bi bi-sun";
     }
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.getElementById("mainNav");
+
+    function updateNavBackground() {
+        if (window.scrollY > 100) {
+            nav.classList.add("scrolled");
+        } else {
+            nav.classList.remove("scrolled");
+        }
+    }
+
+    window.addEventListener("scroll", updateNavBackground);
+    updateNavBackground(); // Sayfa yenilendiğinde kontrol et
+});
+
+
+
+window.addEventListener("DOMContentLoaded", () => {
+    const paths = document.querySelectorAll('#logo path');
+
+    paths.forEach(path => {
+        const length = path.getTotalLength();
+        path.dataset.length = length;
+        path.style.strokeDasharray = length;
+        path.style.strokeDashoffset = length;
+        path.style.stroke = "#D0B581";
+        path.style.fill = "#D0B581";
+        path.style.fillOpacity = 0;
+    });
+
+    let finishedCount = 0;
+    const totalPaths = paths.length;
+
+    paths.forEach((path, i) => {
+        const length = parseFloat(path.dataset.length);
+
+        anime({
+            targets: path,
+            strokeDashoffset: [length, 0],
+            easing: 'easeOutQuad',
+            duration: 2000 + length,
+            delay: i * 150,
+            complete: () => {
+                finishedCount++;
+                if (finishedCount === totalPaths) {
+                    // tüm stroke animasyonları bittiğinde fill animasyonu başlasın
+                    anime({
+                        targets: paths,
+                        fillOpacity: [0, 1],
+                        duration: 1000,
+                        easing: 'easeInOutQuad',
+                        complete: () => {
+                            // paths.forEach(p => p.style.stroke = "none");
+                        }
+                    });
+                }
+            }
+        });
+    });
+});

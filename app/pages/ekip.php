@@ -9,8 +9,8 @@ $ekip = json_decode(file_get_contents(__DIR__ . '/../../data/ekip.json'), true);
 
 <section class="bg-secondary page-title" style="background-image: url('/assets/img/lawyers.jpg')">
     <div class="container">
-        <h1 class="fw-bold mb-0"><?= htmlspecialchars($langData['ekip']['title'] ?? 'Ekibimiz') ?></h1>
-        <p class="lead font-serif-italic text-primary"><?= htmlspecialchars($langData['ekip']['subtitle'] ?? '') ?></p>
+        <h1 class="text-white fw-bold mb-0"><?= htmlspecialchars($langData['ekip']['title'] ?? 'Ekibimiz') ?></h1>
+        <p class="lead font-serif-italic k-yellow"><?= htmlspecialchars($langData['ekip']['subtitle'] ?? '') ?></p>
     </div>
 </section>
 

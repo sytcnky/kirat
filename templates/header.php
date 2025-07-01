@@ -5,14 +5,14 @@ $langData = json_decode(file_get_contents($langFile), true);
 $segments = explode('/', trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'));
 
 $menu = [
-    'home'    => '',
-    'about'   => 'hakkimizda',
-    'services'=> 'faaliyet-alanlari',
-    'team'    => 'ekip',
-    'blog'    => 'blog',
-    'career'  => 'kariyer',
+    'home' => '',
+    'about' => 'hakkimizda',
+    'services' => 'faaliyet-alanlari',
+    'team' => 'ekip',
+    'blog' => 'blog',
+    'career' => 'kariyer',
     'contact' => 'iletisim',
-    'faq'     => 'sss'
+    'faq' => 'sss'
 ];
 
 $currentUrl = '/' . trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
@@ -30,24 +30,36 @@ $currentUrl = '/' . trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 </head>
 <body>
 
-<div class="border-bottom shadow-sm fixed-top">
-    <div class="container d-flex align-items-center justify-content-between py-2" style="max-height: 60px">
-        <button class="btn p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
-            <i class="bi bi-list" style="font-size: 1.8rem;"></i>
-        </button>
-        <a href="/?lang=<?= $lang ?>" class="brand-logo text-decoration-none fw-bold text-dark fs-5">
+<nav id="mainNav" class="navbar sticky-top border-bottom shadow-sm">
+    <div class="container d-flex align-items-center justify-content-between py-2">
+
+        <!-- Hamburger Buton -->
+        <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <i class="bi bi-list fs-3 lh-1 text-white"></i>
+        </div>
+
+        <!-- Logo -->
+        <a href="/?lang=<?= $lang ?>" class="brand-logo d-flex justify-content-center align-items-center">
             <img src="/assets/img/amblem.png" alt="Kırat Hukuk">
         </a>
+
+        <!-- Sağdaki Butonlar -->
         <div class="d-flex align-items-center gap-3">
+            <div class="d-none d-lg-block text-light">
+                <i class="bi bi-telephone fs-5 align-middle"></i> 0542 574 54 79
+            </div>
             <button id="themeToggle" class="btn btn-sm btn-primary" title="Renk Modu">
                 <i class="bi bi-sun"></i>
             </button>
-            <a href="?lang=<?= $lang === 'tr' ? 'en' : 'tr' ?>" class="text-decoration-none fw-medium lang-toggle k-yellow">
+            <a href="?lang=<?= $lang === 'tr' ? 'en' : 'tr' ?>"
+               class="text-decoration-none fw-medium lang-toggle k-yellow">
                 <?= strtoupper($lang === 'tr' ? 'EN' : 'TR') ?>
             </a>
         </div>
+
     </div>
-</div>
+</nav>
+
 
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
     <div class="offcanvas-header">

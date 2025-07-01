@@ -3,8 +3,14 @@
 $bloglar = loadJsonData('blog.json');
 ?>
 
+<section class="bg-secondary page-title" style="background-image: url('/assets/img/template-icra-ve-iflas-hukuku.png')">
+    <div class="container">
+        <h1 class="text-white fw-bold mb-0"><?= htmlspecialchars($langData['blog']['title'] ?? 'Blog') ?></h1>
+        <p class="lead font-serif-italic k-yellow"><?= htmlspecialchars($langData['blog']['subtitle'] ?? '') ?></p>
+    </div>
+</section>
+
 <section class="container py-5">
-    <h1 class="mb-4"><?= $lang == 'tr' ? 'Blog' : 'Blog' ?></h1>
 
     <div class="row g-4">
         <?php foreach ($bloglar as $item): ?>

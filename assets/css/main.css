@@ -95,7 +95,11 @@ body {
 }
 
 .offcanvas{
-    background-color: var(--bs-secondary) !important;
+    background-color: #324740;
+}
+
+.nav-link {
+    color: white !important;
 }
 
 .offcanvas-header {
@@ -103,8 +107,8 @@ body {
     margin-top: 20px;
 }
 
-.nav-link.active {
-    color: var(--bs-primary) !important;
+.nav-link.active, .nav-link:hover {
+    color: #cfb480 !important;
 }
 
 .btn-primary {
@@ -195,13 +199,48 @@ body {
 }
 
 .brand-logo {
-    padding: 10px 10px 10px 10px;
     background: #324740;
     width: 128px;
-    align-self: baseline;
-    margin-top: -.5rem;
+    padding: 12px;
+
+    /* navbar'dan bağımsız taşır */
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.brand-logo img{
+.brand-logo img {
+    height: auto;
     width: 100%;
+}
+
+#mainNav {
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+}
+
+#mainNav.scrolled {
+    background-color: #324740; /* Açık arkaplan */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);       /* Hafif gölge opsiyonel */
+}
+
+main {
+    margin-top: -73px;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
+path {
+    stroke: #D0B581;
+    stroke-width: 2;
+    fill: none;
 }

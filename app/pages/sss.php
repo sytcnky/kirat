@@ -7,14 +7,17 @@ $langData = json_decode(file_get_contents(__DIR__ . '/../../data/lang/' . $lang 
 $faq = json_decode(file_get_contents(__DIR__ . '/../../data/sss.json'), true);
 ?>
 
-<section class="py-5 text-center bg-secondary">
+<section class="bg-secondary page-title" style="background-image: url('/assets/img/template-icra-ve-iflas-hukuku.png')">
     <div class="container">
-        <h1 class="fw-bold mb-3"><?= htmlspecialchars($langData['faq']['title'] ?? 'Sık Sorulan Sorular') ?></h1>
-        <p class="lead font-serif-italic text-primary"><?= htmlspecialchars($langData['faq']['subtitle'] ?? '') ?></p>
+        <h1 class="text-white fw-bold mb-0"><?= htmlspecialchars($langData['faq']['title'] ?? 'Sık Sorulan Sorular') ?></h1>
+        <p class="lead font-serif-italic k-yellow"><?= htmlspecialchars($langData['faq']['subtitle'] ?? '') ?></p>
     </div>
 </section>
 
 <div class="container py-5">
+    <div class="row">
+        <div class="offset-2 col-8"
+    </div>
     <div class="accordion" id="faqAccordion">
         <?php foreach ($faq as $index => $item): ?>
             <div class="accordion-item">
