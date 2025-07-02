@@ -1,3 +1,21 @@
+<?php
+$meta = loadJsonData('meta.json');
+$faaliyetler = loadJsonData('faaliyetler.json');
+
+$faaliyetBaslik = $meta['faaliyet_title'][$lang] ?? '';
+$faaliyetAltBaslik = $meta['faaliyet_subtitle'][$lang] ?? '';
+
+$pathMeta = __DIR__ . '/../data/meta.json';
+echo '<pre>';
+echo 'Dosya var mı? ' . (file_exists($pathMeta) ? '✅ VAR' : '❌ YOK') . "\n";
+echo 'Dosya yolu: ' . $pathMeta . "\n";
+echo '</pre>';
+?>
+
+<?php
+echo '<pre>LOAD JSON FROM: ' . __FILE__ . "\n";
+var_dump(function_exists('loadJsonData'));
+?>
 <section class="hero">
     <div class="hero-content">
         <div class="container">
@@ -29,6 +47,49 @@
         <div class="row">
             <div class="col text-center">
                 <p class="fs-4 k-yellow">Ekibimiz, her biri kendine özgü unsurları olan binlerce davayı ele aldı. Bu süre zarfında yasal, prosedürler ve kamu algısı önemli ölçüde değişti. Her zaman bu eğrinin önünde kalmaya ve bir yasal ve eğitim kaynakları ağı geliştirerek ve sürdürerek size olan bağlılığımızı onurlandırmaya çalışıyoruz, böylece hangi yasal zorlukla karşı karşıya olursanız olun yardımcı olabiliriz.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<pre>
+<?php
+var_dump($meta);
+var_dump($faaliyetler);
+?>
+</pre>
+<section class="container py-5">
+    <div class="row align-items-center">
+        <!-- Sol Alan -->
+        <div class="col-lg-5 mb-4 mb-lg-0">
+            <?php if ($faaliyetBaslik): ?>
+                <h2 class="mb-3"><?= htmlspecialchars($faaliyetBaslik) ?></h2>
+            <?php endif; ?>
+            <?php if ($faaliyetAltBaslik): ?>
+                <p class="mb-4"><?= htmlspecialchars($faaliyetAltBaslik) ?></p>
+            <?php endif; ?>
+            <a href="/faaliyet-alanlari" class="btn btn-outline-primary">
+                <?= $lang === 'tr' ? 'Tüm Faaliyet Alanlarımız' : 'All Practice Areas' ?>
+            </a>
+        </div>
+
+        <!-- Sağ Alan -->
+        <div class="col-lg-7">
+            <div class="row g-4">
+                <?php foreach (array_slice($faaliyetler, 0, 3) as $item): ?>
+                    <?php if (!isset($item['slug'], $item['title'][$lang], $item['summary'][$lang])) continue; ?>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="/assets/img/faaliyetler/<?= htmlspecialchars($item['slug']) ?>.jpg"
+                                 class="card-img-top"
+                                 alt="<?= htmlspecialchars($item['title'][$lang]) ?>">
+                            <div class="card-body">
+                                <h5 class="card-title"><?= htmlspecialchars($item['title'][$lang]) ?></h5>
+                                <p class="card-text"><?= htmlspecialchars($item['summary'][$lang]) ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
