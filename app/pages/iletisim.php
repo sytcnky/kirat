@@ -17,10 +17,13 @@ $langData = json_decode(file_get_contents(__DIR__ . '/../../data/lang/' . $lang 
 <div class="container py-5">
     <div class="row g-5">
         <div class="col-md-6">
+            <h3 class="mb-4">Ofisimiz</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4047.3739250951803!2d28.688341299999994!3d36.9600194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c07f003b37459b%3A0x3852148b705e5a3f!2zS8SxcmF0IEh1a3VrIELDvHJvc3U!5e1!3m2!1str!2str!4v1750149304781!5m2!1str!2str"
                     width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <?= $langData['contact']['content'] ?>
+            <div class="mt-3">
+                <?= $langData['contact']['content'] ?>
+            </div>
         </div>
 
         <div class="col-md-6">

@@ -24,11 +24,11 @@
     <div class="hero-overlay"></div>
 </section>
 
-<section class="bg-primary p-5">
+<section class="k-green-bg p-5">
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <p class="fs-4 text-secondary">Ekibimiz, her biri kendine özgü unsurları olan binlerce davayı ele aldı. Bu süre zarfında yasal, prosedürler ve kamu algısı önemli ölçüde değişti. Her zaman bu eğrinin önünde kalmaya ve bir yasal ve eğitim kaynakları ağı geliştirerek ve sürdürerek size olan bağlılığımızı onurlandırmaya çalışıyoruz, böylece hangi yasal zorlukla karşı karşıya olursanız olun yardımcı olabiliriz.</p>
+                <p class="fs-4 k-yellow">Ekibimiz, her biri kendine özgü unsurları olan binlerce davayı ele aldı. Bu süre zarfında yasal, prosedürler ve kamu algısı önemli ölçüde değişti. Her zaman bu eğrinin önünde kalmaya ve bir yasal ve eğitim kaynakları ağı geliştirerek ve sürdürerek size olan bağlılığımızı onurlandırmaya çalışıyoruz, böylece hangi yasal zorlukla karşı karşıya olursanız olun yardımcı olabiliriz.</p>
             </div>
         </div>
     </div>

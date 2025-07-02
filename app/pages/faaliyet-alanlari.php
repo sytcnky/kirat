@@ -33,7 +33,7 @@ $faaliyetler = json_decode(file_get_contents(__DIR__ . '/../../data/faaliyetler.
                                 data-id="<?= htmlspecialchars($item['id']) ?>"
                                 data-bs-toggle="modal"
                                 data-bs-target="#genericModal">
-                            <?= htmlspecialchars($langData['faaliyet']['button'] ?? 'Hizmet Detayları') ?>
+                            <i class="bi bi-chevron-right"></i>
                         </button>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ $faaliyetler = json_decode(file_get_contents(__DIR__ . '/../../data/faaliyetler.
             <div class="modal-header border-0">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
             </div>
-            <div class="modal-body overflow-auto p-4" id="modalContent"></div>
+            <div class="modal-body overflow-auto p-4 modal-inner-container" id="modalContent"></div>
         </div>
     </div>
 </div>

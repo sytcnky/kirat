@@ -35,8 +35,16 @@ body {
     color: #324740;
 }
 
+.k-green-bg {
+    background-color: #324740;
+}
+
 .k-yellow {
     color: #cfb480;
+}
+
+.k-yellow-bg {
+    background-color: #cfb480;
 }
 
 /* Kurumsal Renk Tanımları (Light + Dark Tema Destekli) */
@@ -243,4 +251,11 @@ path {
     stroke: #D0B581;
     stroke-width: 2;
     fill: none;
+}
+
+
+@media (min-width: 992px) {
+    .modal-inner-container {
+        width: 50%;
+    }
 }
